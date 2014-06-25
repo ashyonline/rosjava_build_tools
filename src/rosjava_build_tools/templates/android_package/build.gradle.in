@@ -27,6 +27,7 @@ buildscript {
                 url p
             }
         }
+        mavenCentral()
         mavenLocal()
         maven {
             url rosMavenRepository
